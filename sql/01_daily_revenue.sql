@@ -3,8 +3,8 @@
 
 WITH daily AS (
   SELECT
-      CAST(date AS DATE)       AS sales_date,
-      SUM(total_sales)         AS revenue
+      CAST(date AS DATE) AS sales_date,
+      SUM(total_sales) AS revenue
   FROM sales_transactions
   GROUP BY CAST(date AS DATE)
 )
