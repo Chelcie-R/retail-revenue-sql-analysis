@@ -40,3 +40,14 @@ It explores daily performance, rolling averages, regional consistency, and top p
 ## Data Sources
 - Simulated retail transaction dataset (500 records)
 - Includes date, region, product, units_sold, unit_price, total_sales
+
+## SQL Files
+- `/sql/01_daily_revenue.sql`
+- `/sql/02_revenue_change_dod.sql`
+- `/sql/03_rolling_7_day_average.sql`
+- `/sql/04_month_over_month_growth.sql`
+- `/sql/05_regional_product_rankings.sql`
+- `/sql/06_biggest_spikes_and_dips.sql`
+- `/sql/07_region_consistency_stddev.sql`
+- `/sql/08_views_for_dashboarding.sql`
+- `/sql/09_quality_checks.sql`
