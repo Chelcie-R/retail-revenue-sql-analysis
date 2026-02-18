@@ -6,7 +6,7 @@ SELECT
 	DATE_TRUNC('month', CAST(date AS DATE)) AS month,
     SUM(total_sales) AS revenue
 FROM sales_transactions
-GROUP BY 1
+GROUP BY DATE_TRUNC('month', CAST(date AS DATE))
 )
 SELECT
     month,
