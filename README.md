@@ -53,4 +53,4 @@ It explores daily performance, rolling averages, regional consistency, and top p
 - [`/sql/09_quality_checks.sql`]
 
 **Insights Summary PDF:**
-retail_revenue_insights_summary.pdf
+`/docs/retail_revenue_insights_summary.pdf`
