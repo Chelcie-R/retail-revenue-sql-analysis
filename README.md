@@ -51,3 +51,6 @@ It explores daily performance, rolling averages, regional consistency, and top p
 - [`/sql/07_region_consistency_stddev.sql`]
 - [`/sql/08_views_for_dashboarding.sql`]
 - [`/sql/09_quality_checks.sql`]
+
+**Insights Summary PDF:**
+retail_revenue_insights_summary.pdf
